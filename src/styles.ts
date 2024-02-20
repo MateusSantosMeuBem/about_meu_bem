@@ -1,7 +1,6 @@
-import { Theme } from "@emotion/react";
 import { makeStyles, createStyles } from '@mui/styles';
 
-const useStyles = makeStyles((theme: Theme) => createStyles({
+const useStyles = makeStyles(() => createStyles({
   container: {
     display: 'flex',
     width: '100%',

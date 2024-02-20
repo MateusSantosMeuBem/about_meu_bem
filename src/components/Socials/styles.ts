@@ -5,15 +5,8 @@ const useStyles = makeStyles(() => createStyles({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    flexDirection: 'column',
-    width: '100%',
+    gap: 24,
   },
-  avatar: {
-    borderRadius: '100%',
-    aspectRatio: 1,
-    width: 200,
-    border: `2px solid #fff`,
-  }
 }));
 
 export default useStyles;

@@ -1,5 +1,6 @@
 import { Box } from "@mui/system";
 import useStyles from "./styles";
+import Socials from "../Socials";
 
 const PersonalInfo = () => {
   const classes = useStyles();
@@ -9,7 +10,8 @@ const PersonalInfo = () => {
         src="https://github.com/mateussantosmeubem.png"
         className={classes.avatar}
       />
-      <h2>Mateus Santos Mendonça</h2>
+      <h1>Mateus Santos</h1>
+      <Socials />
     </Box>
   )
 }
